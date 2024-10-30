@@ -165,7 +165,7 @@ int main() {
         cout << "| 1 - Cadastro           |\n";
         cout << "| 2 - Alteracao          |\n";
         cout << "| 3 - Excluir            |\n";
-        cout << "| 8 - Listar Livros      |\n";
+        cout << "| 4 - Listar Livros      |\n";
         cout << "| 0 - Sair               |\n";
         cout << " =-=-=-=-=-=-=-=-=-=-=-=-\n";
         cin >> opcao;
@@ -180,7 +180,7 @@ int main() {
             case 3:
                 excluirLivro();
                 break;
-            case 8:
+            case 4:
                 listarLivros();
                 break;
             case 0:
